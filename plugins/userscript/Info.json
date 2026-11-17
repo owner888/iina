@@ -1,0 +1,38 @@
+{
+  "name": "User Scripts",
+  "identifier": "io.myphp.user-script",
+  "version": "1.0.0",
+  "description": "User Scripts for myphp",
+  "author": {
+    "name": "myphp Developers",
+    "url": "https://github.com/owner888/myphp"
+  },
+  "entry": "main.php",
+  "globalEntry": "global.php",
+  "permissions": [
+    "show-osd",
+    "network-request",
+    "video-overlay",
+    "file-system"
+  ],
+  "allowedDomains": [
+    "iina.io",
+    "*.iina.io"
+  ],
+  "helpPage": "help.html",
+  "preferenceDefaults": {},
+  "localized": {
+    "zh-Hans": {
+      "name": "用户脚本",
+      "description": "myphp 的用户脚本"
+    },
+    "zh-Hant": {
+      "name": "使用者腳本",
+      "description": "myphp 的使用者腳本"
+    },
+    "ja": {
+      "name": "ユーザースクリプト",
+      "description": "myphp のユーザースクリプト"
+    }
+  }
+}

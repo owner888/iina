@@ -1,0 +1,98 @@
+{
+    "name": "IINA",
+    "displayName": "IINA Media Player (MyPHP)",
+    "description": "对标 macOS IINA 的全功能现代原生音视频播放器：硬件解码、10-bit HDR、libass 级 ASS 特效字幕、Liquid Glass 悬浮控制栏、画中画与插件商店。",
+    "identifier": "com.owner888.iina",
+    "version": "1.0.0",
+    "entry": "app.php",
+    "out": "build",
+    "framework": "../myphp",
+    "macos": {
+        "minimumSystemVersion": "26.0"
+    },
+    "showcase": {
+        "category": "desktop",
+        "tag": "4K HDR 现代视频播放器",
+        "image": "screenshot.jpg"
+    },
+    "fileAssociations": [
+        {
+            "ext": [
+                "mkv"
+            ],
+            "name": "Matroska video",
+            "role": "Viewer"
+        },
+        {
+            "ext": [
+                "webm"
+            ],
+            "name": "WebM media",
+            "role": "Viewer"
+        },
+        {
+            "ext": [
+                "mp4",
+                "m4v"
+            ],
+            "name": "MPEG-4 video",
+            "role": "Viewer"
+        },
+        {
+            "ext": [
+                "mov"
+            ],
+            "name": "QuickTime media",
+            "role": "Viewer"
+        },
+        {
+            "ext": [
+                "ts",
+                "m2ts",
+                "mts"
+            ],
+            "name": "MPEG transport stream",
+            "role": "Viewer"
+        },
+        {
+            "ext": [
+                "mp3"
+            ],
+            "name": "MP3 audio",
+            "role": "Viewer"
+        },
+        {
+            "ext": [
+                "m4a",
+                "m4b",
+                "aac"
+            ],
+            "name": "MPEG-4 audio",
+            "role": "Viewer"
+        },
+        {
+            "ext": [
+                "flac"
+            ],
+            "name": "FLAC audio",
+            "role": "Viewer"
+        },
+        {
+            "ext": [
+                "wav",
+                "aif",
+                "aiff",
+                "caf"
+            ],
+            "name": "Uncompressed audio",
+            "role": "Viewer"
+        },
+        {
+            "ext": [
+                "mka"
+            ],
+            "name": "Matroska audio",
+            "role": "Viewer"
+        }
+    ]
+}

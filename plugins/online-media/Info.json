@@ -1,0 +1,49 @@
+{
+  "name": "Online Media",
+  "identifier": "io.myphp.ytdl",
+  "version": "1.0.0",
+  "description": "Official plugin for playing online media via yt-dlp / youtube-dl. The built-in youtube-dl support will be disabled when this plugin is enabled.",
+  "author": {
+    "name": "myphp Developers",
+    "url": "https://github.com/owner888/myphp"
+  },
+  "entry": "main.php",
+  "globalEntry": "global.php",
+  "permissions": [
+    "show-osd",
+    "file-system",
+    "network-request"
+  ],
+  "allowedDomains": [
+    "github.com"
+  ],
+  "preferencesPage": "pref.html",
+  "preferenceDefaults": {
+    "ytdl_path": "",
+    "js_runtime": "",
+    "excluded_urls": "",
+    "try_ytdl_first": false,
+    "use_manifests": false,
+    "raw_options": "",
+    "include_subs": true,
+    "include_auto_subs": false,
+    "video_quality": "best",
+    "max_video_height": 1080,
+    "custom_ytdl_format": "",
+    "ytdl_format": ""
+  },
+  "localized": {
+    "zh-Hans": {
+      "name": "在线媒体",
+      "description": "通过 yt-dlp / youtube-dl 播放在线媒体的官方插件。启用后，内置的 youtube-dl 支持会关闭。"
+    },
+    "zh-Hant": {
+      "name": "線上媒體",
+      "description": "透過 yt-dlp / youtube-dl 播放線上媒體的官方外掛。啟用後，內建的 youtube-dl 支援會關閉。"
+    },
+    "ja": {
+      "name": "オンラインメディア",
+      "description": "yt-dlp / youtube-dl でオンラインメディアを再生する公式プラグイン。有効にすると、内蔵の youtube-dl サポートは無効になります。"
+    }
+  }
+}
